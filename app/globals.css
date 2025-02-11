@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-customGray; /* Apply the custom color globally */
+  }
+
+  @layer utilities {
+    @keyframes draw-circle {
+      0% {
+        transform: rotate(0deg);
+        border-color: grey;
+
+
+      }
+      20% {
+     
+        border-top-color: white;
+
+      }
+      40% {
+        
+        border-right-color: white;
+
+
+      }
+      60% {
+        border-bottom-color: white;
+
+      }
+      80% {
+        
+        border-left-color: white;
+
+      }
+      100% {
+        transform: rotate(360deg);
+        border-color: #fde68a;
+        border-width: 6px;
+
+      }
+    }
+  
+    .animate-draw-circle {
+      animation: draw-circle 0.5s ease-in-out forwards;
+    }
+  }
+  
