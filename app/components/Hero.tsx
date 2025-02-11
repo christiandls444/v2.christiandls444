@@ -1,15 +1,14 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 const Hero = () => {
-  const titles = [
-    "Data Engineer",
-    "UI/UX Designer",
-    "Natural Language Processing",
-  ];
+  const titles = useMemo(
+    () => ["Data Engineer", "UI/UX Designer", "Natural Language Processing"],
+    []
+  );
+  
   const [currentTitle, setCurrentTitle] = useState("");
   const [index, setIndex] = useState(0);
-  const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
@@ -38,7 +37,6 @@ const Hero = () => {
     };
 
     const typingInterval = setTimeout(handleTyping, typingSpeed);
-
     return () => clearTimeout(typingInterval);
   }, [currentTitle, isDeleting, index, titles]);
 
@@ -48,7 +46,6 @@ const Hero = () => {
         <h1 className="xl:text-11xl lg:text-9xl md:text-8xl text-6xl mb-4">
           Christian M. <span className="bg-amber-200">De L</span>os Santos
         </h1>
-        {/* Keep a fixed height to prevent shifting */}
         <p className="lg:text-7xl md:text-5xl text-3xl italic min-h-[50px]">
           {currentTitle}
           <span className="animate-blink">|</span>

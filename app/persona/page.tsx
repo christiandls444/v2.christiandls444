@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
-
+import Image from "next/image";
+import picture_1 from "/public/imgs/picture_1.jpg"; 
 export default function Persona() {
   return (
     <div>
@@ -11,11 +12,11 @@ export default function Persona() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="w-full h-full">
 
-            <img 
-              src="/imgs/picture_1.jpg" 
+            <Image 
+              src={picture_1} 
               alt="Your Name" 
               className="object-cover"
-            /><span>Not serious, but hilarious. If it were, I'd hack the world.</span>
+            /><span>Not serious, but hilarious. If it were, Id hack the world.</span>
 
 
           </div>

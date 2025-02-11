@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+
 
 import cybercrime_detection_ml from "./imgs/cybercrime_detection_ml.jpg";
 import student_online_class from "./imgs/student_online_class.jpg";

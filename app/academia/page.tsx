@@ -20,7 +20,7 @@ export default function Academia() {
   <div className="relative z-10">
     <h3 className="lg:text-4xl md:text-3xl text-3xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
     <p className="text-2xl md:text-2xl mb-2 italic">
-      Eulogio "Amang" Rodriguez Institute of Science and Technology (EARIST), Manila | June 2018 - August 2022
+     Eulogio Amang Rodriguez Institute of Science and Technology (EARIST), Manila | June 2018 - August 2022
     </p>
     <ul className="text-xl lg:text-2xl list-disc pl-12">
       <li>Outstanding Student Researcher, 55th Student Recognition Program</li>
