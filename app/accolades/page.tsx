@@ -64,7 +64,7 @@ const Accolades = () => {
     <div>
       <Navbar />
       <section id="education" className="px-6 sm:px-10 md:px-20 lg:px-52 py-16">
-        <h2 className="text-7xl mb-6 text-left text-amber-300">Accolades</h2>
+        <h2 className="text-7xl mb-6 text-left text-amber-400">Accolades</h2>
 
 
    
@@ -101,7 +101,7 @@ const Accolades = () => {
                 .map(({ title, image }, index) => (
                   <div key={index} className="group relative overflow-hidden">
                     
-                    <div className="text-xl bg-amber-200 font-semibold italic mt-4 mb-4 text-center p-6">{title}</div>
+                    <div className="text-xl bg-amber-100 font-semibold italic mt-4 mb-4 text-center p-6">{title}</div>
 
                     {/* Clickable Certificate Image */}
                     <button

@@ -6,7 +6,7 @@ export default function ReachMe() {
     <div>
       <Navbar />
       <section id="education" className="px-6 sm:px-10 md:px-20 lg:px-52 py-16">
-      <h2 className="text-7xl mb-6 text-left text-amber-300">Reach Me</h2>
+      <h2 className="text-7xl mb-6 text-left text-amber-400">Reach Me</h2>
 
         <div className="mt-64 lg:text-5xl flex justify-center items-center gap-6 text-3xl text-gray-600 ">
           {[

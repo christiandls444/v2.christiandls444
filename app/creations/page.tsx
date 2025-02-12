@@ -104,7 +104,7 @@ export default function Creations() {
   return (
     <div className="px-6 sm:px-10 md:px-20 lg:px-52 py-16">
       <Navbar />
-      <h2 className="text-7xl mb-6 text-left text-amber-300">Creations</h2>
+      <h2 className="text-7xl mb-6 text-left text-amber-400">Creations</h2>
 
       {/* Filters */}
       <div className="flex flex-wrap gap-4 mb-10 items-center">

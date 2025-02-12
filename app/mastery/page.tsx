@@ -6,7 +6,7 @@ export default function Mastery() {
       <Navbar />
 
       <section className="px-6 sm:px-10 md:px-20 lg:px-52 py-16">
-        <h2 className="text-7xl mb-6 text-left text-amber-300">Mastery</h2>
+        <h2 className="text-7xl mb-6 text-left text-amber-400">Mastery</h2>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Technical Skills */}
@@ -15,7 +15,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Languages
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>JavaScript</li>
               <li>Python</li>
               <li>SQL</li>
@@ -28,7 +28,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Data Science
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>Data Wrangling & Processing</li>
               <li>Exploratory Data Analysis</li>
               <li>Supervised Learning</li>
@@ -40,7 +40,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Backend Development
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>NestJS</li>
               <li>RESTful APIs</li>
               <li>PostgreSQL</li>
@@ -54,7 +54,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Google Cloud
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>Cloud Run</li>
               <li>BigQuery</li>
               <li>Cloud SQL</li>
@@ -66,7 +66,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Project Management
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>Agile</li>
               <li>Scrum</li>
               <li>Jira</li>
@@ -78,7 +78,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Productivity
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>MacOS</li>
               <li>Windows</li>
               <li>Microsoft 365</li>
@@ -91,7 +91,7 @@ export default function Mastery() {
             <h3 className="text-3xl font-semibold mb-4 relative after:content-[''] after:absolute after:left-0 after:bottom-[-15px] after:w-0 after:h-2 after:bg-amber-200 after:transition-all after:duration-300 group-hover:after:w-10">
               Interpersonal Skills
             </h3>
-            <ul className="space-y-3 text-xl leading-relaxed">
+            <ul className="space-y-3 text-1xl leading-relaxed">
               <li>Active</li>
               <li>Productive</li>
               <li>Collaboration</li>

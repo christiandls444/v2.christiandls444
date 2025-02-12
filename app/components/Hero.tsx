@@ -42,11 +42,11 @@ const Hero = () => {
 
   return (
     <section className="flex items-center justify-start h-screen px-6 sm:px-10 md:px-20 lg:px-52">
-      <div className="w-full lg:max-w-[1200px] md:max-w-[600px] text-left">
-        <h1 className="xl:text-11xl lg:text-9xl md:text-8xl text-6xl mb-4">
+      <div className="w-full lg:max-w-[1000px] md:max-w-[600px] text-left">
+        <h1 className="xl:text-10xl lg:text-9xl md:text-8xl text-6xl mb-4">
           Christian M. <span className="bg-amber-200">De L</span>os Santos
         </h1>
-        <p className="lg:text-7xl md:text-5xl text-3xl italic min-h-[50px]">
+        <p className="lg:text-6xl md:text-4xl text-2xl italic min-h-[50px]">
           {currentTitle}
           <span className="animate-blink">|</span>
         </p>

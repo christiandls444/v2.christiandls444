@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const experiences = [
-  { year: "June 2023 - Present", title: "Data Eng Mgmt & Governance Analyst", company: "Accenture", description: "Developed and optimized chatbot conversation flows and backend components for Generative AI projects using Dialogflow CX, NestJS, and Google Cloud. Built APIs and database integrations with BigQuery and Cloud SQL, ensuring smooth data retrieval and deployment. Collaborated in an Agile environment, conducting testing and refining functionalities for optimal performance." },
+  { year: "June 2023 - Present", title: "Data Eng. Mgmt & Governance Analyst", company: "Accenture", description: "Developed and optimized chatbot conversation flows and backend components for Generative AI projects using Dialogflow CX, NestJS, and Google Cloud. Built APIs and database integrations with BigQuery and Cloud SQL, ensuring smooth data retrieval and deployment. Collaborated in an Agile environment, conducting testing and refining functionalities for optimal performance." },
   { year: "January 2023 - March 2024", title: "Jr. Machine Learning Engineer", company: "Omdena", description: "Developed Python scripts for data collection, preprocessing, and analysis in NLP and ML projects. Worked with global teams to drive innovation and project success." },
   { year: "September 2022 - May 2023", title: "Data Analyst", company: "ReClaim Healthcare Administrative Services", description: "Developed machine learning models to improve classification and analysis while reviewing research papers for accuracy and clarity. Contributed to an IEEE publication, ensuring high academic standards." },
   { year: "April - July 2022", title: "UI/UX Designer Intern", company: "Kabootek PH", description: "Conducted user research, designed user flows, wireframes, and UI prototypes in an iterative process. Worked closely with the CEO and developers in a fast-paced tech environment to refine and deliver high-quality solutions using Figma." },
@@ -15,7 +15,7 @@ const Legacy = () => {
   return (
     <div className="relative w-full min-h-screen px-6 sm:px-10 md:px-20 lg:px-52 py-16">
       <Navbar />
-      <h2 className="text-7xl mb-6 text-left text-amber-300">Legacy</h2>
+      <h2 className="text-7xl mb-6 text-left text-amber-400">Legacy</h2>
       <div className="relative w-full flex flex-col items-center">
         
         {/* Vertical Timeline Line */}

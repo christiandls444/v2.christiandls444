@@ -32,7 +32,7 @@ const Navbar = () => {
             >
               <a
                 href={item.href}
-                className="text-2xl inline-block transition-transform duration-300 ease-in-out transform origin-left hover:scale-125 hover:bg-amber-200"
+                className="inline-block transition-transform duration-300 ease-in-out transform origin-left hover:scale-125 hover:bg-amber-200"
               >
                 {item.name}
               </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
           className="md:hidden fixed inset-0 bg-white flex flex-col items-center justify-center space-y-6 text-lg font-normal z-50"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
+          transition={{ duration: 0, ease: "easeOut" }}
         >
           <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4">
             <X size={30} />
