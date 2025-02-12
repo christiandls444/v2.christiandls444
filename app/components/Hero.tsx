@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import React, { useState, useEffect, useMemo } from "react";
 
 const Hero = () => {
@@ -41,6 +42,13 @@ const Hero = () => {
   }, [currentTitle, isDeleting, index, titles]);
 
   return (
+    <motion.div
+    initial={{ opacity: 0, x: -100 }} 
+    animate={{ opacity: 1, x: 0 }}  
+    exit={{ opacity: 0, x: 100 }} 
+    transition={{ duration: 1 }}
+    className="relative"
+  >
     <section className="flex items-center justify-start h-screen px-6 sm:px-10 md:px-20 lg:px-52">
       <div className="w-full lg:max-w-[1000px] md:max-w-[600px] text-left">
         <h1 className="xl:text-10xl lg:text-9xl md:text-8xl text-6xl mb-4">
@@ -52,6 +60,7 @@ const Hero = () => {
         </p>
       </div>
     </section>
+   </motion.div>
   );
 };
 
